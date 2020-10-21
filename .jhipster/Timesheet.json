@@ -1,0 +1,41 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "pontoeletronicoService",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "weekday",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "goLunch",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "backLunch",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "checkin",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "checkout",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Long"
+    }
+  ],
+  "changelogDate": "20201019185035",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "timesheet",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "pontoeletronicoService"
+}

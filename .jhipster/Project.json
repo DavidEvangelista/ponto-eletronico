@@ -1,0 +1,40 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "pontoeletronicoService",
+  "relationships": [
+    {
+      "relationshipName": "timesheet",
+      "otherEntityName": "timesheet",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "project"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "allocatedHours",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "manager",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201020221647",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "project",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "pontoeletronicoService"
+}

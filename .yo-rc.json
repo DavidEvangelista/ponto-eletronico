@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.ais.pontoeletronico"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "pontoeletronicoService",
+    "packageName": "br.com.ais.pontoeletronico",
+    "packageFolder": "br/com/ais/pontoeletronico",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2M1ZjI4YWQ4NjI1NjA2NDE1Yjc2NGUzOGVhMjlhYTViMzYyNjEyOTdlMDJiY2NkMzE2ZmQzMmVhN2Q5NGQyZGE5OTkxMTY3M2M4MWNkZTg5NjU0NWJlZmFlZWJjN2NiM2JkZmM3ZTkyMjQzMzMzNDNiODFlNWZlMDEwYmJiNWE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1603066369756,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.9.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.9.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1603232207000
+  }
+}
